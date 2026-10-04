@@ -1,1 +1,14 @@
 @import 'tailwindcss';
+@plugin "daisyui";
+
+@theme {
+  --font-roboto: 'Roboto', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+
+  --color-dark-heading: #aebccf;
+  --color-dark-subheading: #b7aaff;
+  --color-dark-background: #252128;
+  --color-logo: #4731d3;
+  --color-logo-text: #8f88ff;
+  --color-button-text: #3730a3;
+}
