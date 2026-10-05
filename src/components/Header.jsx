@@ -16,9 +16,13 @@ export default function Header() {
         </div>
       </div>
       <nav className="flex justify-between items-center">
-        <a href="">Skills</a>
-        <a href="">Projects</a>
-        <button className="btn btn-soft font-roboto bg-white text-button-text">
+        <a className="text-dark-header-titles" href="">
+          Skills
+        </a>
+        <a className="text-dark-header-titles" href="">
+          Projects
+        </a>
+        <button className="btn btn-soft font-roboto bg-dark-cta-button-bg text-button-text">
           Hire Me
         </button>
       </nav>
