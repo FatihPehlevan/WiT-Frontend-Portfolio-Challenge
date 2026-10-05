@@ -1,0 +1,6 @@
+[
+  { "id": 1, "label": "Date of Birth", "value": "24.03.1996" },
+  { "id": 2, "label": "Residence", "value": "Ankara" },
+  { "id": 3, "label": "Education", "value": "Hacettepe Uni., Biology" },
+  { "id": 4, "label": "Preferred Role", "value": "Frontend, UI" }
+]
