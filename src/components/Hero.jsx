@@ -8,9 +8,9 @@ export default function Hero() {
         <span className="w-16 h-px bg-dark-tertiary"></span>
         <span className="text-lg">Almila Su</span>
       </div>
-      <h2 className="text-4xl font-inter font-bold tracking-wide">
+      <h1 className="text-4xl text-dark-heading font-inter font-bold tracking-wide">
         Creative Thinker <br /> Minimalism Lover
-      </h2>
+      </h1>
       <img src="../src/assets/hero_image.png" alt="hero_image" />
       <p>
         Hi, I’m Almila. I’m a full-stack developer. If you are looking for a
