@@ -31,7 +31,7 @@ Not\* Bu dökümanın en sonunda da, sunumda seni değerlendireceğimiz başlık
 
 - [ ] Tasarımdaki her bir section için ayrı bir component oluşturun.
 - [ ] Her component'in style'ını ayarlayın.
-- [ ] Verilerinizi kendi oluşturduğunuz verileri statik bir json dosyasından çekin.
+- [ ] Verilerinizi kendi oluşturduğunuz statik bir json dosyasından çekin.
 - [ ] Dark Mode tasarımı da entegre edin.
 - [ ] Türkçe-İngilizce içerik oluşturun.
 - [ ] Responsive özelleştirmelerini yapın. Mobil ve tablet gibi farklı cihaz boyutları için, tasarımda biraz değişiklik yapabilirsin. Buralarda insiyatif kullanabilirsin.
