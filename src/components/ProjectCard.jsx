@@ -5,15 +5,21 @@ export default function ProjectCard({ project }) {
       <figure>
         <img src={img} />
       </figure>
-      <div className="card-body">
-        <h2 className="card-title">{title}</h2>
+      <div className="card-body px-0">
+        <h2 className="card-title text-dark-subheading font-inter font-normal text-xl">
+          {title}
+        </h2>
         <p>{summary}</p>
-        <div className="card-actions justify-start">
+        <div className="card-actions justify-start pt-1">
           {tags.map((tag, index) => (
             <div key={index} className="badge badge-outline">
               {tag}
             </div>
           ))}
+        </div>
+        <div className="flex justify-between underline pt-1">
+          <span>Github</span>
+          <span>View Site</span>
         </div>
       </div>
     </div>
