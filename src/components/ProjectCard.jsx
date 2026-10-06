@@ -12,7 +12,10 @@ export default function ProjectCard({ project }) {
         <p>{summary}</p>
         <div className="card-actions justify-start pt-1">
           {tags.map((tag, index) => (
-            <div key={index} className="badge badge-outline">
+            <div
+              key={index}
+              className="badge badge-outline font-inter, text-logo-text bg-dark-link-bg pb-0.5 leading-none"
+            >
               {tag}
             </div>
           ))}
