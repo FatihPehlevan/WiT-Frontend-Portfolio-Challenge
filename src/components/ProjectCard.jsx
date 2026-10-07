@@ -5,8 +5,8 @@ export default function ProjectCard({ project }) {
       <figure>
         <img src={img} />
       </figure>
-      <div className="card-body px-0">
-        <h2 className="card-title text-dark-subheading font-inter font-normal text-xl">
+      <div className="card-body px-0 pb-0">
+        <h2 className="card-title text-dark-project-title font-inter font-normal text-xl lg:text-3xl lg:font-medium">
           {title}
         </h2>
         <p>{summary}</p>
@@ -20,9 +20,9 @@ export default function ProjectCard({ project }) {
             </div>
           ))}
         </div>
-        <div className="flex justify-between underline pt-1">
-          <span>Github</span>
-          <span>View Site</span>
+        <div className="flex justify-between underline underline-offset-2 pt-1 font-inter lg:font-medium">
+          <span className="text-dark-cta-button-bg">Github</span>
+          <span className="text-dark-cta-button-bg">View Site</span>
         </div>
       </div>
     </div>

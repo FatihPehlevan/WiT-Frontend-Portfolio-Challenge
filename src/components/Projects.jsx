@@ -13,9 +13,11 @@ export default function Projects() {
   }, []);
 
   return (
-    <section className="flex flex-col gap-3">
-      <h2 className="text-3xl text-dark-heading">Projects</h2>
-      <div className="flex flex-col gap-2">
+    <section className="flex flex-col gap-3 lg:gap-8 lg:pb-24">
+      <h2 className="text-3xl font-inter font-semibold text-dark-heading lg:text-5xl">
+        Projects
+      </h2>
+      <div className="flex flex-col gap-2 lg:grid lg:grid-cols-3 lg:gap-30">
         {projects.map((project) => (
           <ProjectCard key={project.id} project={project} />
         ))}

@@ -14,7 +14,7 @@ export default function Profile() {
   return (
     <section className="flex flex-col gap-3">
       <h2 className="text-3xl text-dark-heading">Profile</h2>
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 lg:flex-row">
         <div className="flex flex-col gap-2">
           <h3 className="text-dark-subheading text-xl">About Me</h3>
           <p>

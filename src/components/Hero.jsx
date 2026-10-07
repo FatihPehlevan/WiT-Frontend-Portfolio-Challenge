@@ -17,8 +17,8 @@ export default function Hero() {
         Developer who to craft solid and frontend products with great user
         experiences. Let’s shake hands with me.
       </p>
-      <div className="flex flex-col gap-1">
-        <button className="btn btn-soft font-roboto bg-dark-cta-button-bg text-button-text w-full">
+      <div className="flex flex-col gap-1 lg:flex-row">
+        <button className="btn btn-soft font-roboto bg-dark-cta-button-bg text-button-text w-full lg:w-auto">
           Hire Me
         </button>
         <div className="grid grid-cols-2 gap-1">

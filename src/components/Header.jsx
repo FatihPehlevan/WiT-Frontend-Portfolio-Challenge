@@ -15,14 +15,14 @@ export default function Header() {
           <LanguageSwitcher />
         </div>
       </div>
-      <nav className="flex justify-between items-center">
+      <nav className="flex justify-between items-center font-inter lg:justify-end lg:gap-15 lg:text-lg">
         <a className="text-dark-header-titles" href="">
           Skills
         </a>
         <a className="text-dark-header-titles" href="">
           Projects
         </a>
-        <button className="btn btn-soft font-roboto bg-dark-cta-button-bg text-button-text">
+        <button className="btn btn-soft font-inter bg-dark-cta-button-bg text-button-text lg:text-lg lg:px-8 py-6">
           Hire Me
         </button>
       </nav>
