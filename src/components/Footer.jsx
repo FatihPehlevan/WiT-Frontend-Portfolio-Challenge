@@ -1,11 +1,11 @@
 export default function Footer() {
   return (
-    <footer className=" bg-dark-footer-bg py-6 lg:py-21">
-      <div className="flex flex-col w-4/5 mx-auto gap-3 lg:max-w-7xl lg:gap-10">
+    <footer className=" bg-dark-footer-bg py-8 lg:py-21">
+      <div className="flex flex-col w-4/5 mx-auto gap-4 lg:max-w-7xl lg:gap-10">
         <h3 className="text-2xl font-inter font-semibold text-dark-heading">
           Let's work together on your next product.
         </h3>
-        <div className="flex flex-col gap-3 lg:flex-row lg:justify-between">
+        <div className="flex flex-col gap-4 lg:flex-row lg:justify-between">
           <span className="flex gap-1">
             <span className="pt-1">👉</span>
             <span className="text-xl underline underline-offset-3 font-inter font-medium text-dark-tertiary">

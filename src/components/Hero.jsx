@@ -3,7 +3,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 export default function Hero() {
   return (
-    <main className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-12 lg:gap-y-9 lg:pt-22">
+    <main className="flex flex-col gap-6 pt-8 lg:grid lg:grid-cols-2 lg:grid-rows-1 lg:gap-x-12 lg:gap-y-9 lg:pt-22">
       <div className="flex items-center gap-2 text-dark-subheading lg:col-start-1 lg:row-start-2">
         <span className="w-16 h-px bg-dark-tertiary lg:w-20"></span>
         <span className="font-inter text-lg lg:text-xl">Almila Su</span>
