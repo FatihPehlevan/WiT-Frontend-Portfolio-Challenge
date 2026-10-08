@@ -21,7 +21,7 @@ export default function Profile() {
           <h3 className="text-dark-subheading text-xl font-inter font-medium lg:text-3xl">
             About Me
           </h3>
-          <p className="lg:w-lg lg:text-lg">
+          <p className="lg:w-lg lg:text-lg font-inter">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam
             aut, odit laborum aliquam voluptatum nisi mollitia. <br /> <br />
             Mnima accusamus ratione soluta aperiam sit voluptate? Dicta quod
@@ -36,7 +36,7 @@ export default function Profile() {
             {details.map((detail) => (
               <div
                 key={detail.id}
-                className="grid grid-cols-2 lg:pb-2 lg:text-lg"
+                className="grid grid-cols-2 lg:pb-2 lg:text-lg font-inter"
               >
                 <span className="font-semibold">{detail.label}</span>
                 <span className="lg:w-48">{detail.value}</span>

@@ -24,7 +24,7 @@ export default function Skills() {
             <h3 className="text-dark-subheading text-xl font-inter font-medium lg:text-3xl">
               {skill.title}
             </h3>
-            <p className="lg:w-90">{skill.text}</p>
+            <p className="lg:w-90 font-inter">{skill.text}</p>
           </div>
         ))}
       </div>

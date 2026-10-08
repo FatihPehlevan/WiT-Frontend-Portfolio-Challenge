@@ -12,7 +12,7 @@ export default function Footer() {
               almilasucode@gmail.com
             </span>
           </span>
-          <div className="flex gap-8">
+          <div className="flex gap-8 font-inter">
             <span className="text-dark-cta-button-bg">Personal Blog</span>
             <span className="text-dark-footer-github">Github</span>
             <span className="text-dark-footer-linkedIn">LinkedIn</span>

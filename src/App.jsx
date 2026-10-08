@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 function App() {
   return (
-    <div className="bg-dark-background h-dvh pt-6">
+    <div className="bg-dark-background h-full pt-6">
       <div className="w-4/5  mx-auto flex flex-col gap-6 lg:max-w-7xl">
         <Header />
         <Hero />
