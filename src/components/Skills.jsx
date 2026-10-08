@@ -14,7 +14,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <section className="flex flex-col gap-3 lg:gap-8">
+    <section className="flex flex-col gap-3 lg:gap-8 lg:pt-31 lg:pb-15.5 lg:border-b lg:border-dark-tertiary">
       <h2 className="text-3xl font-inter font-semibold text-dark-heading lg:text-5xl">
         Skills
       </h2>

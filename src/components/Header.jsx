@@ -3,10 +3,10 @@ import ThemeSwitcher from './ThemeSwitcher';
 
 export default function Header() {
   return (
-    <header className="grid grid-cols-2 gap-y-6">
+    <header className="w-4/5 mx-auto grid grid-cols-2 gap-y-6 lg:max-w-7xl">
       <div className="col-start-1 row-start-1 lg:row-start-2 avatar avatar-placeholder">
         <div className="bg-logo text-logo-text w-14 rounded-full">
-          <span className="text-xl rotate-25">A</span>
+          <span className="text-xl rotate-25 font-inter font-semibold">A</span>
         </div>
       </div>
 

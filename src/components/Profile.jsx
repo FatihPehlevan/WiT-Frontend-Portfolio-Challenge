@@ -12,7 +12,7 @@ export default function Profile() {
   }, []);
 
   return (
-    <section className="flex flex-col gap-3 lg:gap-8">
+    <section className="flex flex-col gap-3 lg:gap-8 lg:pt-15.5 lg:pb-15.5 lg:border-b lg:border-dark-tertiary">
       <h2 className="text-3xl text-dark-heading font-inter font-semibold lg:text-5xl">
         Profile
       </h2>

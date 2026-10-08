@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className=" bg-dark-footer-bg py-6 lg:py-16">
+    <footer className=" bg-dark-footer-bg py-6 lg:py-21">
       <div className="flex flex-col w-4/5 mx-auto gap-3 lg:max-w-7xl lg:gap-10">
         <h3 className="text-2xl font-inter font-semibold text-dark-heading">
           Let's work together on your next product.

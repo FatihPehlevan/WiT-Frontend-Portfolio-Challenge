@@ -8,8 +8,8 @@ import Footer from '@/components/Footer';
 function App() {
   return (
     <div className="bg-dark-background h-full pt-6">
-      <div className="w-4/5  mx-auto flex flex-col gap-6 lg:max-w-7xl">
-        <Header />
+      <Header />
+      <div className="w-4/5  mx-auto flex flex-col gap-0 lg:max-w-7xl">
         <Hero />
         <Skills />
         <Profile />
