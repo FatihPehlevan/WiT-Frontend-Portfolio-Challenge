@@ -34,6 +34,9 @@ export default function ThemeSwitcher() {
         >
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
         </svg>
+        <span className="hidden font-inter font-bold text-dark-theme-switch-text  lg:inline ">
+          LIGHT MODE
+        </span>
       </label>
     </>
   );
