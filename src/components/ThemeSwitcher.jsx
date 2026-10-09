@@ -1,8 +1,20 @@
-import { useContext } from 'react';
+import { useContext, useEffect } from 'react';
 import { LangSwitchContext } from '@/contexts/LangSwitchContext';
+import { ThemeSwitchContext } from '@/contexts/ThemeSwitchContext';
 
 export default function ThemeSwitcher() {
   const { language } = useContext(LangSwitchContext);
+  const { theme, setTheme } = useContext(ThemeSwitchContext);
+
+  useEffect(() => {
+    const root = document.documentElement;
+    if (theme === 'dark') {
+      root.classList.add('dark');
+    } else {
+      root.classList.remove('dark');
+    }
+  }, [theme]);
+
   return (
     <>
       <label className="flex cursor-pointer gap-2 pr-4 items-center">
@@ -22,7 +34,11 @@ export default function ThemeSwitcher() {
         </svg>
         <input
           type="checkbox"
-          value="synthwave"
+          value={theme}
+          onChange={() => {
+            setTheme(theme === 'dark' ? 'light' : 'dark');
+          }}
+          checked={theme === 'dark'}
           className="toggle theme-controller"
         />
         <svg

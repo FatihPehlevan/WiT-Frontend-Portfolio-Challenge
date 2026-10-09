@@ -1,9 +1,10 @@
-import { createContext, useState } from 'react';
+import { createContext, useEffect } from 'react';
+import { useLocalStorage } from '@/hooks/useLocalStorage';
 
-const ThemeSwitchContext = createContext();
+export const ThemeSwitchContext = createContext();
 
 export default function ThemeSwitchContextProvider({ children }) {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useLocalStorage('theme', 'light');
 
   return (
     <ThemeSwitchContext.Provider value={{ theme, setTheme }}>

@@ -1,6 +1,8 @@
 @import 'tailwindcss';
 @plugin "daisyui";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-roboto: 'Roboto', sans-serif;
   --font-inter: 'Inter', sans-serif;
@@ -13,8 +15,10 @@
   --color-dark-cta-button-bg: #e1e1ff;
   --color-dark-link-bg: #383838;
   --color-dark-footer-bg: #141414;
+  --color-light-footer-bg: #f9f9f9;
   --color-dark-footer-linkedIn: #0ba6f6;
   --color-dark-footer-github: #17d18b;
+  --color-light-footer-red: #af0c48;
   --color-dark-header-aux: #777777;
   --color-dark-project-title: #cfcbff;
   --color-dark-theme-switch-text: #d9d9d9;

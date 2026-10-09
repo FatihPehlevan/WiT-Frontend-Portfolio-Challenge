@@ -1,5 +1,6 @@
-import { createContext, useState } from 'react';
+import { createContext } from 'react';
 import { useLocalStorage } from '@/hooks/useLocalStorage';
+
 export const LangSwitchContext = createContext();
 
 export default function LangSwitchContextProvider({ children }) {

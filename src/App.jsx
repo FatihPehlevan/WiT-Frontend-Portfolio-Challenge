@@ -5,20 +5,25 @@ import Profile from '@/components/Profile';
 import Projects from '@/components/Projects';
 import Footer from '@/components/Footer';
 import LangSwitchContextProvider from './contexts/LangSwitchContext';
+import ThemeSwitchContextProvider from './contexts/ThemeSwitchContext';
+import { useContext } from 'react';
+import { ThemeSwitchContext } from '@/contexts/ThemeSwitchContext';
 
 function App() {
   return (
     <LangSwitchContextProvider>
-      <div className="bg-dark-background h-full pt-6">
-        <Header />
-        <div className="w-4/5  mx-auto flex flex-col gap-0 lg:max-w-7xl">
-          <Hero />
-          <Skills />
-          <Profile />
-          <Projects />
+      <ThemeSwitchContextProvider>
+        <div className="bg-white dark:bg-dark-background h-full pt-6">
+          <Header />
+          <div className="w-4/5  mx-auto flex flex-col gap-0 lg:max-w-7xl">
+            <Hero />
+            <Skills />
+            <Profile />
+            <Projects />
+          </div>
+          <Footer />
         </div>
-        <Footer />
-      </div>
+      </ThemeSwitchContextProvider>
     </LangSwitchContextProvider>
   );
 }
