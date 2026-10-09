@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "title": "JavaScript",
+      "text": "Modern ES6+ sözdizimi, asenkron programlama ve algoritmik mantık kullanarak sağlam, etkileşimli, dinamik web uygulamaları geliştirme konusunda yetkinim."
+    },
+    {
+      "id": 2,
+      "title": "React",
+      "text": "Fonksiyonel bileşenler, özel kancalar ve durum yönetimiyle yüksek performanslı, duyarlı, ölçeklenebilir ve modern kullanıcı arayüzleri tasarlayıp kodluyorum."
+    },
+    {
+      "id": 3,
+      "title": "Node",
+      "text": "Ölçeklenebilir arka uç API'leri, veritabanı entegrasyonları, mikroservis mimarileri ve güvenli, esnek, dayanıklı sunucu tarafı yazılım sistemleri geliştiriyorum."
+    }
+  ],
+  "title": "Yetenekler"
+}

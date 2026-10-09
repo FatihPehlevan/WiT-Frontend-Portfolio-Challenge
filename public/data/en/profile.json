@@ -1,0 +1,16 @@
+{
+  "details": [
+    { "id": 1, "label": "Date of Birth", "value": "28.05.1994" },
+    { "id": 2, "label": "Residence", "value": "Istanbul" },
+    {
+      "id": 3,
+      "label": "Education",
+      "value": "Istanbul Tech. Uni., Electrical Eng. Bsc., 2020"
+    },
+    { "id": 4, "label": "Preferred Role", "value": "Full Stack Developer" }
+  ],
+  "aboutMe": "Passionate Full Stack Developer with an engineering background focused on building scalable, reliable, modern, user-centric applications.\n\nDedicated to writing clean code, solving complex architectural challenges, and driving continuous personal growth.",
+  "title": "Profile",
+  "detailsTitle": "Details",
+  "aboutMeTitle": "About Me"
+}

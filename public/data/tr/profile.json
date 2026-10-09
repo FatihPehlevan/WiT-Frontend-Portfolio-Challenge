@@ -1,0 +1,16 @@
+{
+  "details": [
+    { "id": 1, "label": "Doğum Tarihi", "value": "28.05.1994" },
+    { "id": 2, "label": "İkametgah", "value": "İstanbul" },
+    {
+      "id": 3,
+      "label": "Eğitim",
+      "value": "Istanbul Tek. Üni., Elektrik Mühendisliği Lisans, 2020"
+    },
+    { "id": 4, "label": "Terchi Edilen Rol", "value": "Full Stack Developer" }
+  ],
+  "aboutMe": "Mühendislik temeline sahip, modern ve ölçeklenebilir web uygulamaları geliştirmeye odaklanmış tutkulu bir Full Stack yazılım geliştiriciyim.\n \nTemiz kod yazmaya, karmaşık mimari problemleri çözmeye ve sürekli kendimi geliştirmeye büyük önem veririm.",
+  "title": "Profil",
+  "detailsTitle": "Detaylar",
+  "aboutMeTitle": "Hakkımda"
+}

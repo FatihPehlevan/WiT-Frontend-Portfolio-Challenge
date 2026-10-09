@@ -1,0 +1,20 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "title": "JavaScript",
+      "text": "Building robust modern web applications with ES6+ syntax, asynchronous programming, interactive interfaces, and clean efficient algorithmic logic."
+    },
+    {
+      "id": 2,
+      "title": "React",
+      "text": "Crafting dynamic user interfaces using functional components, custom hooks, state management, and highly optimized responsive component rendering."
+    },
+    {
+      "id": 3,
+      "title": "Node",
+      "text": "Developing scalable backend APIs, handling database integrations, microservices architectures, and creating secure, robust, reliable server-side software solutions."
+    }
+  ],
+  "title": "Skills"
+}

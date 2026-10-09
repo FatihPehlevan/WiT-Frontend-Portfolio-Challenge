@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "img": "../src/assets/workintech.png",
+      "title": "Workintech",
+      "summary": "Workintech eğitim sürecinde geliştirilen bu kapsamlı web platformu, modern arayüz tasarımı ve güçlü bileşen mimarisi ile kullanıcı deneyimini üst seviyeye taşır. React ve Redux altyapısı kullanılarak hazırlanan projede dinamik durum yönetimi, hızlı veri akışı, duyarlı tasarım kalıpları ve yüksek performanslı sayfa geçişleri titizlikle kurgulanıp test edilerek en iyi biçimde uygulanmıştır.",
+      "tags": ["react", "redux", "axios"]
+    },
+
+    {
+      "id": 2,
+      "img": "../src/assets/random_jokes.png",
+      "title": "Random Jokes",
+      "summary": "Kullanıcıların harici bir REST API üzerinden rastgele eğlenceli şakalar çekmesini, favorilerine eklemesini ve yönetmesini sağlayan interaktif bir web uygulamasıdır. React bileşenleri, Axios veri istekleri ve Redux durum yönetimi ile inşa edilen proje; asenkron veri akışını, hata yakalama mekanizmalarını ve akıcı kullanıcı etkileşimlerini temiz bir kod yapısıyla çok başarılı şekilde sergilemektedir.",
+      "tags": ["react", "redux", "axios"]
+    },
+
+    {
+      "id": 3,
+      "img": "../src/assets/journey.png",
+      "title": "Journey",
+      "summary": "Kullanıcıların seyahat anılarını, gezi rotalarını ve kişisel deneyimlerini paylaşabildikleri dinamik, modern ve duyarlı bir gezi günlüğü web platformudur. Axios yardımıyla sunucu bağlantıları kurulan ve Redux ile merkezi durum yönetimi sağlanan uygulama; filtreleme özellikleri, hızlı arayüz tepkileri ve estetik tasarımıyla kullanıcıya son derece akıcı, keyifli ve akılda kalıcı bir gezinme sunar.",
+      "tags": ["react", "redux", "axios"]
+    }
+  ],
+  "title": "Projeler"
+}
