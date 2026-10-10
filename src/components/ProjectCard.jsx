@@ -25,12 +25,16 @@ export default function ProjectCard({ project }) {
           ))}
         </div>
         <div className="flex justify-between underline underline-offset-2 pt-1 font-inter lg:font-medium">
-          <span className="text-[#3730A3] dark:text-dark-cta-button-bg underline underline-offset-2">
-            Github
-          </span>
-          <span className="text-[#3730A3] dark:text-dark-cta-button-bg underline underline-offset-2">
-            {language === 'en' ? 'View Site' : 'Siteyi Gör'}
-          </span>
+          <a href="/">
+            <span className="text-[#3730A3] dark:text-dark-cta-button-bg underline underline-offset-2">
+              Github
+            </span>
+          </a>
+          <a href="/">
+            <span className="text-[#3730A3] dark:text-dark-cta-button-bg underline underline-offset-2">
+              {language === 'en' ? 'View Site' : 'Siteyi Gör'}
+            </span>
+          </a>
         </div>
       </div>
     </div>

@@ -15,7 +15,10 @@ export default function Skills() {
   }, [language]);
 
   return (
-    <section className="flex flex-col gap-4 pt-16 pb-8 border-b border-dark-tertiary lg:gap-8 lg:pt-31 lg:pb-15.5  ">
+    <section
+      id="skills"
+      className="flex flex-col gap-4 pt-16 pb-8 border-b border-dark-tertiary lg:gap-8 lg:pt-31 lg:pb-15.5  "
+    >
       <h2 className="text-3xl font-inter font-semibold text-[#1F2937] dark:text-dark-heading lg:text-5xl">
         {skillsTxt.title}
       </h2>

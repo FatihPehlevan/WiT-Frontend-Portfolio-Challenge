@@ -17,7 +17,10 @@ export default function Projects() {
   }, [language]);
 
   return (
-    <section className="flex flex-col gap-4 pt-8 pb-16 lg:gap-8 lg:pb-31 lg:pt-15.5">
+    <section
+      id="projects"
+      className="flex flex-col gap-4 pt-8 pb-16 lg:gap-8 lg:pb-31 lg:pt-15.5"
+    >
       <h2 className="text-3xl font-inter font-semibold text-[#1F2937] dark:text-dark-heading lg:text-5xl">
         {projectsTxt.title}
       </h2>

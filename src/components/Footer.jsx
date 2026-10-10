@@ -16,20 +16,31 @@ export default function Footer() {
         <div className="flex flex-col gap-4 lg:flex-row lg:justify-between">
           <span className="flex gap-1">
             <span className="pt-1">👉</span>
-            <span className="text-xl underline underline-offset-3 font-inter font-medium text-light-footer-red dark:text-dark-tertiary">
-              almilasucode@gmail.com
-            </span>
+            <a href="">
+              <span className="text-xl underline underline-offset-3 font-inter font-medium text-light-footer-red dark:text-dark-tertiary">
+                almilasucode@gmail.com
+              </span>
+            </a>
           </span>
           <div className="flex gap-8 font-inter">
-            <span className="text-[#0A0A14] dark:text-dark-cta-button-bg">
-              {language === 'en' ? 'Personal Blog' : 'Kişisel Blog'}
-            </span>
-            <span className="text-[#00AB6B] dark:text-dark-footer-github">
-              Github
-            </span>
-            <span className="text-[#0077B5] dark:text-dark-footer-linkedIn">
-              LinkedIn
-            </span>
+            <a href="">
+              <span className="text-[#0A0A14] dark:text-dark-cta-button-bg">
+                {language === 'en' ? 'Personal Blog' : 'Kişisel Blog'}
+              </span>
+            </a>
+            <a href="https://github.com/FatihPehlevan" target="_blank">
+              <span className="text-[#00AB6B] dark:text-dark-footer-github">
+                Github
+              </span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/fatih-pehlevan/"
+              target="_blank"
+            >
+              <span className="text-[#0077B5] dark:text-dark-footer-linkedIn">
+                LinkedIn
+              </span>
+            </a>
           </div>
         </div>
       </div>

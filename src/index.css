@@ -3,6 +3,10 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --font-roboto: 'Roboto', sans-serif;
   --font-inter: 'Inter', sans-serif;

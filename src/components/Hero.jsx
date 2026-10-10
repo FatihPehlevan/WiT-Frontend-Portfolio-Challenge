@@ -42,22 +42,27 @@ export default function Hero() {
           {heroTxt.buttonText}
         </button>
         <div className="grid grid-cols-2 gap-1 lg:gap-3">
-          <button className="btn btn-soft font-roboto border border-[#3730A3] dark:border-dark-cta-button-bg bg-white dark:bg-dark-link-bg text-[#3730A3] dark:text-dark-cta-button-bg flex w-full items-center justify-center gap-2 lg:text-lg lg:px-6 lg:py-6 lg:w-32.5">
-            <FontAwesomeIcon
-              className="text-[#3730A3] dark:text-dark-tertiary"
-              icon={faGithub}
-              aria-hidden="true"
-            />
-            <span className="font-inter">Github</span>
-          </button>
-          <button className="btn btn-soft font-roboto border border-[#3730A3] dark:border-dark-cta-button-bg bg-white dark:bg-dark-link-bg text-[#3730A3] dark:text-dark-cta-button-bg flex w-full items-center justify-center gap-2 lg:text-lg lg:px-8 lg:py-6 lg:w-32.5">
-            <FontAwesomeIcon
-              className="text-[#3730A3] dark:text-dark-tertiary"
-              icon={faLinkedinIn}
-              aria-hidden="true"
-            />
-            <span className="font-inter">LinkedIn</span>
-          </button>
+          <a href="https://github.com/FatihPehlevan" target="_blank">
+            <button className="btn btn-soft font-roboto border border-[#3730A3] dark:border-dark-cta-button-bg bg-white dark:bg-dark-link-bg text-[#3730A3] dark:text-dark-cta-button-bg flex w-full items-center justify-center gap-2 lg:text-lg lg:px-6 lg:py-6 lg:w-32.5">
+              <FontAwesomeIcon
+                className="text-[#3730A3] dark:text-dark-tertiary"
+                icon={faGithub}
+                aria-hidden="true"
+              />
+              <span className="font-inter">Github</span>
+            </button>
+          </a>
+
+          <a href="https://www.linkedin.com/in/fatih-pehlevan/" target="_blank">
+            <button className="btn btn-soft font-roboto border border-[#3730A3] dark:border-dark-cta-button-bg bg-white dark:bg-dark-link-bg text-[#3730A3] dark:text-dark-cta-button-bg flex w-full items-center justify-center gap-2 lg:text-lg lg:px-8 lg:py-6 lg:w-32.5">
+              <FontAwesomeIcon
+                className="text-[#3730A3] dark:text-dark-tertiary"
+                icon={faLinkedinIn}
+                aria-hidden="true"
+              />
+              <span className="font-inter">LinkedIn</span>
+            </button>
+          </a>
         </div>
       </div>
     </main>
