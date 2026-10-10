@@ -16,48 +16,45 @@ export default function ThemeSwitcher() {
   }, [theme]);
 
   return (
-    <>
-      <label className="flex cursor-pointer gap-2 pr-4 items-center">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
+    <button
+      type="button"
+      role="switch"
+      aria-checked={theme === 'dark'}
+      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+      className="flex cursor-pointer items-center gap-3 pr-4"
+    >
+      <span
+        className={`relative inline-flex h-8 w-16 items-center rounded-full transition-colors duration-300 zoom-75 ${
+          theme === 'dark' ? 'bg-[#3A3A3A]' : 'bg-[#4731D3]'
+        }`}
+      >
+        <span
+          className={`flex h-6 w-6 items-center justify-center transform transition-transform duration-300 ease-in-out ${
+            theme === 'dark' ? 'translate-x-1' : 'translate-x-8'
+          }`}
         >
-          <circle cx="12" cy="12" r="5" />
-          <path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4" />
-        </svg>
-        <input
-          type="checkbox"
-          value={theme}
-          onChange={() => {
-            setTheme(theme === 'dark' ? 'light' : 'dark');
-          }}
-          checked={theme === 'dark'}
-          className="toggle theme-controller"
-        />
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        >
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-        <span className="hidden font-inter font-bold text-dark-theme-switch-text lg:inline ">
-          {language === 'en' ? 'LIGHT MODE' : 'AÇIK MOD'}
+          {theme === 'dark' ? (
+            <svg
+              className="h-6 w-6 fill-[#FFE86E] text-[#FFE86E]"
+              viewBox="0 0 24 24"
+            >
+              <path d="M18.6 5A8.5 8.5 0 1 0 19.0 19A7 7 0 0 1 18.6 5Z" />
+            </svg>
+          ) : (
+            <span className="h-4.5 w-4.5 rounded-full bg-[#FFE86E]" />
+          )}
         </span>
-      </label>
-    </>
+      </span>
+
+      <span className="hidden font-inter font-bold text-[#777777] dark:text-dark-theme-switch-text lg:inline select-none">
+        {language === 'en'
+          ? theme === 'dark'
+            ? 'LIGHT MODE'
+            : 'DARK MODE'
+          : theme === 'dark'
+            ? 'AÇIK MOD'
+            : 'KOYU MOD'}
+      </span>
+    </button>
   );
 }

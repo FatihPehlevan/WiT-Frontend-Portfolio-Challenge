@@ -13,12 +13,18 @@ export default function LanguageSwitcher() {
         <span className="hidden lg:inline">
           {language === 'en' ? (
             <span className="text-dark-header-aux">
-              Switch to <span className="text-dark-tertiary">TURKISH</span>
+              Switch to{' '}
+              <span className="text-[#4731D3] dark:text-dark-tertiary">
+                TURKISH
+              </span>
             </span>
           ) : (
             <span className="text-dark-header-aux">
               {' '}
-              <span className="text-dark-tertiary">İNGİLİZCE</span>'ye geç
+              <span className="text-[#4731D3] dark:text-dark-tertiary">
+                İNGİLİZCE
+              </span>
+              'ye geç
             </span>
           )}
         </span>

@@ -6,8 +6,6 @@ import Projects from '@/components/Projects';
 import Footer from '@/components/Footer';
 import LangSwitchContextProvider from './contexts/LangSwitchContext';
 import ThemeSwitchContextProvider from './contexts/ThemeSwitchContext';
-import { useContext } from 'react';
-import { ThemeSwitchContext } from '@/contexts/ThemeSwitchContext';
 
 function App() {
   return (

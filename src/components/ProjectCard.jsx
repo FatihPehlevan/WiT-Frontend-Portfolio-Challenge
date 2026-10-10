@@ -5,7 +5,7 @@ export default function ProjectCard({ project }) {
   const { img, title, summary, tags } = project;
   const { language } = useContext(LangSwitchContext);
   return (
-    <div className="card w-full shadow-sm ">
+    <div className="card w-full">
       <figure>
         <img src={img} />
       </figure>
@@ -18,17 +18,17 @@ export default function ProjectCard({ project }) {
           {tags.map((tag, index) => (
             <div
               key={index}
-              className="badge badge-outline font-inter bg-white text-[#3730A3] dark:text-logo-text dark:bg-dark-link-bg pb-0.5 leading-none"
+              className="badge badge-outline rounded-md font-inter bg-white text-[#3730A3] dark:text-logo-text dark:bg-dark-link-bg pb-0.5 leading-none"
             >
               {tag}
             </div>
           ))}
         </div>
         <div className="flex justify-between underline underline-offset-2 pt-1 font-inter lg:font-medium">
-          <span className="text-[#3730A3] dark:text-dark-cta-button-bg">
+          <span className="text-[#3730A3] dark:text-dark-cta-button-bg underline underline-offset-2">
             Github
           </span>
-          <span className="text-[#3730A3] dark:text-dark-cta-button-bg">
+          <span className="text-[#3730A3] dark:text-dark-cta-button-bg underline underline-offset-2">
             {language === 'en' ? 'View Site' : 'Siteyi Gör'}
           </span>
         </div>
