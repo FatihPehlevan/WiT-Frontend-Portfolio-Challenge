@@ -2,6 +2,7 @@ import LanguageSwitcher from './LanguageSwitcher';
 import ThemeSwitcher from './ThemeSwitcher';
 import { LangSwitchContext } from '@/contexts/LangSwitchContext';
 import { useContext } from 'react';
+import HireMeButton from './HireMeButton';
 
 export default function Header() {
   const { language } = useContext(LangSwitchContext);
@@ -25,9 +26,7 @@ export default function Header() {
         <a className="text-dark-header-titles" href="#projects">
           {language === 'en' ? 'Projects' : 'Projeler'}
         </a>
-        <button className="btn btn-soft font-inter bg-white dark:bg-dark-cta-button-bg  border-[#4731D3] text-button-text lg:text-lg lg:px-8 py-6">
-          {language === 'en' ? 'Hire Me' : 'İletişime Geç'}
-        </button>
+        <HireMeButton />
       </nav>
     </header>
   );

@@ -4,6 +4,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { LangSwitchContext } from '@/contexts/LangSwitchContext';
 import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
+import HireMeButton from './HireMeButton';
 
 export default function Hero() {
   const [heroTxt, setHeroTxt] = useState({
@@ -38,9 +39,7 @@ export default function Hero() {
         {heroTxt.summary}
       </p>
       <div className="flex flex-col gap-1 lg:flex-row lg:gap-3 lg:col-start-1 lg:row-start-5">
-        <button className="btn btn-soft font-inter bg-[#3730A3] dark:bg-dark-cta-button-bg dark:text-button-text lg:text-lg lg:px-8 lg:py-6">
-          {heroTxt.buttonText}
-        </button>
+        <HireMeButton />
         <div className="grid grid-cols-2 gap-1 lg:gap-3">
           <a href="https://github.com/FatihPehlevan" target="_blank">
             <button className="btn btn-soft font-roboto border border-[#3730A3] dark:border-dark-cta-button-bg bg-white dark:bg-dark-link-bg text-[#3730A3] dark:text-dark-cta-button-bg flex w-full items-center justify-center gap-2 lg:text-lg lg:px-6 lg:py-6 lg:w-32.5">
