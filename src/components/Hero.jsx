@@ -5,6 +5,7 @@ import { LangSwitchContext } from '@/contexts/LangSwitchContext';
 import axios from 'axios';
 import { useContext, useEffect, useState } from 'react';
 import HireMeButton from './HireMeButton';
+import heroImage from '@/assets/hero_image.png';
 
 export default function Hero() {
   const [heroTxt, setHeroTxt] = useState({
@@ -32,7 +33,7 @@ export default function Hero() {
       </h1>
       <img
         className="lg:col-start-2 lg:row-start-2 lg:row-span-4 lg:justify-self-end lg:w-140 lg:object-cover"
-        src="../src/assets/hero_image.png"
+        src={heroImage}
         alt="hero_image"
       />
       <p className="font-inter lg:col-start-1 lg:row-start-4 lg:w-xl text-[#6B7280] dark:text-white ">
