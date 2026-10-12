@@ -8,8 +8,7 @@ html {
 }
 
 @theme {
-  --font-roboto: 'Roboto', sans-serif;
-  --font-inter: 'Inter', sans-serif;
+  --font-sans: 'Inter', sans-serif;
 
   --color-dark-heading: #aebccf;
   --color-dark-subheading: #b7aaff;

@@ -46,7 +46,7 @@ export default function ThemeSwitcher() {
         </span>
       </span>
 
-      <span className="hidden font-inter font-bold text-[#777777] dark:text-dark-theme-switch-text lg:inline select-none">
+      <span className="hidden font-bold text-[#777777] dark:text-dark-theme-switch-text lg:inline select-none">
         {language === 'en'
           ? theme === 'dark'
             ? 'LIGHT MODE'

@@ -21,7 +21,7 @@ export default function HireMeButton() {
 
       customClass: {
         popup:
-          '!bg-white dark:!bg-dark-background !text-[#1F2937] dark:!text-dark-heading font-inter rounded-lg shadow-lg p-6',
+          '!bg-white dark:!bg-dark-background !text-[#1F2937] dark:!text-dark-heading rounded-lg shadow-lg p-6',
       },
 
       inputValidator: (value) => {
@@ -48,7 +48,7 @@ export default function HireMeButton() {
   return (
     <button
       onClick={handleClick}
-      className="btn btn-soft font-inter bg-[#3730A3] dark:bg-dark-cta-button-bg dark:text-button-text lg:text-lg lg:px-8 lg:py-6"
+      className="btn btn-soft bg-[#3730A3] dark:bg-dark-cta-button-bg dark:text-button-text lg:text-lg lg:px-8 lg:py-6"
     >
       {language === 'en' ? 'Hire Me' : 'İletişime Geç'}
     </button>

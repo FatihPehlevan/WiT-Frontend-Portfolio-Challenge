@@ -8,7 +8,7 @@ export default function LanguageSwitcher() {
       className="cursor-pointer"
       onClick={() => setLanguage(language === 'en' ? 'tr' : 'en')}
     >
-      <span className="border-l-2 border-gray-500 pl-4 font-bold text-dark-tertiary font-inter">
+      <span className="border-l-2 border-gray-500 pl-4 font-bold text-dark-tertiary">
         <span className="lg:hidden">{language === 'en' ? 'EN' : 'TR'}</span>
         <span className="hidden lg:inline">
           {language === 'en' ? (
